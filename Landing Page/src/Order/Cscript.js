@@ -57,7 +57,7 @@ function initApp(){
         let newDiv = document.createElement('div');
         newDiv.classList.add('item');
         newDiv.innerHTML = `
-            <img src="https://github.com/PROTOMAC1/Landing-Page-Ramen-Restaurant/Landing%20Page/src/image/${value.image}">
+            <img src="https://raw.githubusercontent.com/PROTOMAC1/Landing-Page-Ramen-Restaurant/master/Landing%20Page/src/image/${value.image}">
             <div class="title">${value.name}</div>
             <div class="price">${value.price.toLocaleString()}</div>
             <button onclick="addToCard(${key})">Add To Card</button>`;
