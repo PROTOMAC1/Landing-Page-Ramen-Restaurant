@@ -17,7 +17,7 @@ let products = [
     {
         id: 1,
         name: 'Grilled Chicken Ramen',
-        image: '1.PNG',
+        image: '1.png',
         price: 120
     },
     {
