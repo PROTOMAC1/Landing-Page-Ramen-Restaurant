@@ -23,31 +23,31 @@ let products = [
     {
         id: 2,
         name: 'Miso Ramen',
-        image: '2.PNG',
+        image: '2.png',
         price: 200
     },
     {
         id: 3,
         name: 'Veggie Ramen',
-        image: '3.PNG',
+        image: '3.png',
         price: 220
     },
     {
         id: 4,
         name: 'Tonkotsu Ramen',
-        image: '4.PNG',
+        image: '4.png',
         price: 230
     },
     {
         id: 5,
         name: 'Shoyu Ramen',
-        image: '5.PNG',
+        image: '5.png',
         price: 320
     },
     {
         id: 6,
         name: 'Tokyo Ramen',
-        image: '6.PNG',
+        image: '6.png',
         price: 100
     }
 ];
@@ -83,7 +83,7 @@ function reloadCard(){
         if(value != null){
             let newDiv = document.createElement('li');
             newDiv.innerHTML = `
-                <div><img src="https://github.com/PROTOMAC1/Landing-Page-Ramen-Restaurant/Landing%20Page/src/image/${value.image}"/></div>
+                <div><img src="https://raw.githubusercontent.com/PROTOMAC1/Landing-Page-Ramen-Restaurant/master/Landing%20Page/src/image/${value.image}"/></div>
                 <div>${value.name}</div>
                 <div>${value.price.toLocaleString()}</div>
                 <div>
