@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <script src="https://kit.fontawesome.com/126de4dc1a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="home">
+        <section class="hero-section">
+            <nav class="navbar">
+                <h2>Top Ramen</h2>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hero-text">
+                <h2>Best Ramen in the Town.</h2>
+                <p>Testiest Ramen you will ever have.</p>
+                <a href="http://127.0.0.1:5500/Landing%20Page/src/Order/contents.html">Order Now</a>
+            </div>
+        </section>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./image/istockphoto.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Us</h1>
+                    <p>A life without purpose is like ramen without noodles. We have every different varieties of Ramen avalable.<br>Our Ramen is very tasty and healthy.</p>
+                    <!-- <div class="tab-titels">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Types</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Veg Ramen</span><br></li>
+                            <li><span>Non-Veg Ramen</span><br></li>
+                        </ul>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Us</h1>
+                    <p>topramen@gmail.com <i class="fa-solid fa-envelope"></i></p>
+                    <p>1234567890 <i class="fa-solid fa-square-phone"></i></p>
+                    <p>0987654321 <i class="fa-brands fa-whatsapp"></i></p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © TopRamen. Made for Restaurant</p>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
