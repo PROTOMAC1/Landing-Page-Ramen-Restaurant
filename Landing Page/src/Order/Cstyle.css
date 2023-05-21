@@ -12,8 +12,10 @@ html{
 body{
     background-color: #E3E7E8;
     font-family: system-ui;
+    height: 150vh;
     background: 
     url("https://e1.pxfuel.com/desktop-wallpaper/135/220/desktop-wallpaper-food-backgrounds-on-dark-slate-flavor-of-india-la-indian-restaurant-1414x1414-for-your-mobile-tablet-food-menu.jpg");
+    backdrop-filter: blur(5px);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
