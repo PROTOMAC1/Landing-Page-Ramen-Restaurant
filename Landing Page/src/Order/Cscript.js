@@ -17,37 +17,37 @@ let products = [
     {
         id: 1,
         name: 'Grilled Chicken Ramen',
-        image: '1.png',
+        image: '1.PNG',
         price: 120
     },
     {
         id: 2,
         name: 'Miso Ramen',
-        image: '2.png',
+        image: '2.PNG',
         price: 200
     },
     {
         id: 3,
         name: 'Veggie Ramen',
-        image: '3.png',
+        image: '3.PNG',
         price: 220
     },
     {
         id: 4,
         name: 'Tonkotsu Ramen',
-        image: '4.png',
+        image: '4.PNG',
         price: 230
     },
     {
         id: 5,
         name: 'Shoyu Ramen',
-        image: '5.png',
+        image: '5.PNG',
         price: 320
     },
     {
         id: 6,
         name: 'Tokyo Ramen',
-        image: '6.png',
+        image: '6.PNG',
         price: 100
     }
 ];
